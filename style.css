@@ -1,0 +1,208 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: font-family: 'Poppins', sans-serif;
+
+}
+
+#Banner
+
+{
+    background: url(image/BG_3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo
+{
+    width: 200px;
+    position: absolute;
+    top: 15%;
+    left: 2%;
+}
+
+.Banner-text
+{
+    text-align: center;
+    padding: 180px;
+}
+
+.Banner-text h1
+
+{
+    font-size: 32px;
+    font-family: 'Kaushan Script', cursive;
+
+}
+
+.Banner-text p
+
+{
+    font-size: 15px;
+    font-style: italic;
+}
+
+.menu-bar
+
+{
+    background-color: #29ab87;
+    text-align: center;
+}
+
+
+.menu-bar ul
+
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff
+}
+
+.menu-bar ul li
+
+{
+    width: 180px;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+.menu-bar ul li a
+
+{
+    text-decoration: none;
+    color: white;
+   
+   
+}
+
+ .menu-bar ul li:hover
+
+{
+   background: #003366;
+   
+
+}
+
+
+.menu-bar .fa 
+{
+    margin-right: 8px;
+}
+
+.Banner-btn
+
+{
+    margin: 70px auto 0;
+}
+
+.Banner-btn a
+
+{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: #29ab87;
+    border: .5px solid #29ab87;
+    border-radius: 3%;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+} 
+
+
+.Banner-btn a span
+{
+ width: 0;
+ height: 100%;
+ position: absolute;
+ top: 0;
+ left: 0;
+ background: #003366;
+ z-index: -1; 
+ transition: 0.5s; 
+}
+
+.Banner-btn a:hover  span 
+
+{
+    width: 100%;
+}
+
+.Banner-btn a:hover
+{
+    color: #fff;
+}
+
+footer
+{
+    clear: both;
+    background: #29ab87;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+
+.sub-menu
+
+{
+    display: none;
+}
+
+.menu-bar ul li:hover .sub-menu
+
+{
+    display: block;
+    position: absolute;
+    background: #29ab87;
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+
+.menu-bar ul li:hover .sub-menu ul
+
+{
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu ul li 
+
+
+{
+    width: 210px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+
+
+}
+
+.menu-bar ul li:hover .sub-menu ul li:last-child
+
+{
+
+    border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu ul li a:hover
+
+{
+    color: #b2ff00;
+}
+
+.fa-angle-right
+
+{
+    float: right;
+}
